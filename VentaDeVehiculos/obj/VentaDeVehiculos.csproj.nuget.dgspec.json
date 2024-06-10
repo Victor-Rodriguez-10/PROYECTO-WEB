@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\FUNCIONAL\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {}
+    "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {}
   },
   "projects": {
-    "F:\\FUNCIONAL\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {
+    "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\FUNCIONAL\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+        "projectUniqueName": "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
         "projectName": "VentaDeVehiculos",
-        "projectPath": "F:\\FUNCIONAL\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+        "projectPath": "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
         "packagesPath": "C:\\Users\\MR ROBOT\\.nuget\\packages\\",
-        "outputPath": "F:\\FUNCIONAL\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\obj\\",
+        "outputPath": "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
