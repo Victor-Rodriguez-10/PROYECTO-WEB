@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+      "projectUniqueName": "F:\\FUNCIONAL\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
       "projectName": "VentaDeVehiculos",
-      "projectPath": "C:\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+      "projectPath": "F:\\FUNCIONAL\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
       "packagesPath": "C:\\Users\\MR ROBOT\\.nuget\\packages\\",
-      "outputPath": "C:\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\obj\\",
+      "outputPath": "F:\\FUNCIONAL\\PRYECTO WEB\\VentaDeVehiculos\\VentaDeVehiculos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
