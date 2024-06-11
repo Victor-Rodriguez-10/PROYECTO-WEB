@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AJyA2nraHdYWlt8fg0GGCUUSunf6HXaxHDERDD4lVsiGgtgGqnd2DP6qqQjbYeBythrn4sNaDWAVKAkikGbmuQ==",
+  "dgSpecHash": "87IlbJkpjSD8uW+lOWYeSTe9itxjJJgF64rmg/W0cmK+NDv5xbK7mB2U8DJFe5TCY+MdkOhcvdWxArpGdyrOrw==",
   "success": true,
-  "projectFilePath": "F:\\FUNCIONAL\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+  "projectFilePath": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MR ROBOT\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\MR ROBOT\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
