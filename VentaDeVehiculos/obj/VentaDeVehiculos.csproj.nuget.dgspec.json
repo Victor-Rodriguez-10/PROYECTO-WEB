@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {}
+    "F:\\FUNCIONAL\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {}
   },
   "projects": {
-    "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {
+    "F:\\FUNCIONAL\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+        "projectUniqueName": "F:\\FUNCIONAL\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
         "projectName": "VentaDeVehiculos",
-        "projectPath": "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+        "projectPath": "F:\\FUNCIONAL\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
         "packagesPath": "C:\\Users\\MR ROBOT\\.nuget\\packages\\",
-        "outputPath": "F:\\FUNCIONAL\\PRYECTO WEB\\PROYECTO-WEB\\VentaDeVehiculos\\obj\\",
+        "outputPath": "F:\\FUNCIONAL\\PROYECTO-WEB\\VentaDeVehiculos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -60,6 +64,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
