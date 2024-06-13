@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sJrqR4Sohg2Vnzsuo8s3NyOVu8s0/8fIHQkXmVaOXuE=",
+  "Hash": "SkTKWWB986UwN3rKZ8YTTI0cBhBFiVmVEi/Sg86NesM=",
   "Source": "VentaDeVehiculos",
   "BasePath": "_content/VentaDeVehiculos",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Captura de pantalla 2024-06-10 223642.png"
+    },
+    {
+      "Identity": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
+      "SourceId": "VentaDeVehiculos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
+      "BasePath": "_content/VentaDeVehiculos",
+      "RelativePath": "css/estilos_Login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\estilos_Login.css"
     },
     {
       "Identity": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\site.css",

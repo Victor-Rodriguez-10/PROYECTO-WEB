@@ -5,42 +5,31 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Simple</title>
     <!-- Enlace a Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .login-container {
-            min-height: 100vh;
-        }
-
-        .login-form {
-            max-width: 400px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        .login-image {
-            background-image: url('https://via.placeholder.com/600');
-            background-size: cover;
-            background-position: center;
-        }
-    </style>
+    
+    <link rel="stylesheet" href="./css/estilos_Login.css">
 </head>
+
 <body>
-    <div class="container-fluid login-container d-flex">
-        <div class="row flex-fill">
-            <div class="col-lg-6 d-flex align-items-center">
-                <div class="login-form w-100">
-                    <h2 class="text-center mb-4">Iniciar Sesión</h2>
-                    <form asp-action="Login" asp-controller="Login" method="post">
-                        <div class="form-group">
-                            <label for="email">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo">
+
+    <div class="padre">
+        <div class="principal">
+            <form asp-action="Login" asp-controller="Login" method="post">
+                <div id="caja">
+                    <h2> LOGIN </h2>
+                    <form method="post">
+                        <div class="correo">
+                            <label for="email">Correo Electronico</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Ingresa tu correo">
+
                         </div>
-                        <div class="form-group">
+
+                        <div class="contraseña">
                             <label for="password">Contraseña</label>
                             <input type="password" class="form-control" id="password" name="password" placeholder="Ingresa tu contraseña">
                         </div>
@@ -50,18 +39,10 @@
                             <div class="alert alert-danger">@TempData["LoginError"]</div>
                         }
 
-                        <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+                        <div class="boton"><button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button></div>
                     </form>
                 </div>
-
-
-            </div>
-            <div class="col-lg-6 login-image d-none d-lg-block">
-                <center>
-                    <img src="./css/Captura de pantalla 2024-06-10 223642.png" width="1000px" alt="no se pudo cargar la imagen">
-                    
-                </center>
-            </div>
+            </form>
         </div>
     </div>
 
