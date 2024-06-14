@@ -1,44 +1,90 @@
-﻿* {
-    margin: 0;
-    padding: 0;
-}
-.padre {
-    font-family: montserrat;
-    background: linear-gradient(150deg,#00ff90,#ffd800,#b6ff00);
+﻿#Hero {
+    min-height: 100vh;
+    position: relative;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: montserrat;
-    background: linear-gradient(150deg,#00ff90,#ffd800,#b6ff00);
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
 }
 
-
-
-.principal h2 {
-    background: #ffffff;
-    text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid #ffffff;
+.promo{
+    padding-top: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin:auto;
+    position: relative;
+    z-index: 2;
 }
+
+#caja h1{
+    font-size:2.5rem;
+    text-align:center;
+    color: #ffffff;
+    font-weight:900;
+}
+
 .correo {
-    background: #ffffff;
+    font-size: 2.5rem;
     text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: 900;
 }
 
-.constraseña {
-    background: #ffffff;
+.contraseña {
+    font-size: 2.5rem;
     text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: 900;
 }
 
-.boton {
-    background: #ffffff;
-    text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid #ffffff;
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
 }
+
+button {
+
+    display: inline-block;
+    border: none;
+    height: 50px;
+    border-radius: 30px;
+    padding: 10px 0;
+    width: 350px;
+    background-color: #000000;
+    font-size: 1.8rem;
+    color: antiquewhite;
+    font-weight: 800;
+    transition: 150ms;
+    margin-top: 40px;
+
+}
+
+.form-control {
+    font-size: 1.0rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    transform: translate(0, -5px);
+}
+

@@ -11,17 +11,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Simple</title>
     <!-- Enlace a Bootstrap CSS -->
-    
+    <link rel="stylesheet" href="./css/estilos_Login.css">
     
 </head>
 
 <body>
 
-    <div class="padre">
-        <div class="principal">
+    <main id="Hero">
+        <div class="promo">
             <form asp-action="Login" asp-controller="Login" method="post">
                 <div id="caja">
-                    <h2> LOGIN </h2>
+                    <h1> INICIAR SECION </h1>
                     <form method="post">
                         <div class="correo">
                             <label for="email">Correo Electronico</label>
@@ -39,12 +39,22 @@
                             <div class="alert alert-danger">@TempData["LoginError"]</div>
                         }
 
-                        <div class="boton"><button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button></div>
+                        <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+
                     </form>
                 </div>
             </form>
         </div>
-    </div>
+
+        <video muted autoplay loop controls>
+            <source src="./VideosPrincipal/Nuevo Hyundai KONA. Gama Híbrida y Eléctrica. Supera tus límites.mp4" type="video/mp4" />
+        </video>
+
+        <div class="capa">
+
+        </div>
+
+    </main>
 
     <!-- Enlace a Bootstrap JS y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

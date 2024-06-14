@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\VentaDeVehiculos.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\Hyundai   Nueva Hyundai CRETA 2024.mp4",
+      "PackagePath": "staticwebassets\\VideosPrincipal\\Hyundai   Nueva Hyundai CRETA 2024.mp4"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\Hyundai   Nuevo Hyundai GRAND i10 SD 2024 Evolución a tu medida.mp4",
+      "PackagePath": "staticwebassets\\VideosPrincipal\\Hyundai   Nuevo Hyundai GRAND i10 SD 2024 Evolución a tu medida.mp4"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\Hyundai auto oficial Festival de Viña 2023..mp4",
+      "PackagePath": "staticwebassets\\VideosPrincipal\\Hyundai auto oficial Festival de Viña 2023..mp4"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\Nuevo Hyundai KONA. Gama Híbrida y Eléctrica. Supera tus límites.mp4",
+      "PackagePath": "staticwebassets\\VideosPrincipal\\Nuevo Hyundai KONA. Gama Híbrida y Eléctrica. Supera tus límites.mp4"
+    },
+    {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
       "PackagePath": "staticwebassets\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4"
     },
@@ -15,6 +31,10 @@
     {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\Captura de pantalla 2024-06-10 223642.png",
       "PackagePath": "staticwebassets\\css\\Captura de pantalla 2024-06-10 223642.png"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
+      "PackagePath": "staticwebassets\\css\\estilo_Home.css"
     },
     {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
@@ -34,6 +54,10 @@
     },
     {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\0_2",
+      "PackagePath": "staticwebassets\\fotos"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\0_3",
       "PackagePath": "staticwebassets\\fotos"
     },
     {
@@ -271,6 +295,10 @@
     {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\recursos\\Captura de pantalla 2024-06-10 222134.png",
       "PackagePath": "staticwebassets\\recursos\\Captura de pantalla 2024-06-10 222134.png"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\recursos\\font.jpg",
+      "PackagePath": "staticwebassets\\recursos\\font.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VentaDeVehiculos.Microsoft.AspNetCore.StaticWebAssets.props",
