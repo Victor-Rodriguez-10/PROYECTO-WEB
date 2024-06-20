@@ -13,8 +13,11 @@ namespace VentaDeVehiculos.Models
 
         // para el archivo de la foto 
         [NotMapped]
-        [Display (Name = "Cargar Foto")]
-        public IFormFile? FotoFile { get; set; } 
+        [Display(Name = "Cargar Foto")]
+        public IFormFile? FotoFile { get; set; }
+        // 
+        [NotMapped]
+        public string? Inf { get { return $"{Matricula} - {Modelo}"; } }
 
         public decimal CostoVehiculo { get; set; }
         public string? Descripsion { get; set; }

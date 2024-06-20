@@ -60,10 +60,6 @@ namespace VentaDeVehiculos.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (vehiculo.FotoFile != null)
-                {
-                    await GuardarImagen(vehiculo);
-                }
                 _context.Add(vehiculo);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -75,7 +71,7 @@ namespace VentaDeVehiculos.Controllers
         {
             string wwwRootPath = _webHostEnvironment.WebRootPath;
             string extension = Path.GetExtension(vehiculo.FotoFile!.FileName);
-            string nameFoto = $"{vehiculo.Id}_{vehiculo.Stock}";
+            string nameFoto = $"{vehiculo.Id}_{vehiculo.Stock}{extension}";
 
             vehiculo.UrlFoto = nameFoto;
 
@@ -117,6 +113,10 @@ namespace VentaDeVehiculos.Controllers
             {
                 try
                 {
+                    if (vehiculo.FotoFile != null)
+                    {
+                        await GuardarImagen(vehiculo);
+                    }
                     _context.Update(vehiculo);
                     await _context.SaveChangesAsync();
                 }
