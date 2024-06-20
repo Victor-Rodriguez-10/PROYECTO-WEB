@@ -1,54 +1,75 @@
-﻿@model VentaDeVehiculos.Models.Venta
+﻿
+@model VentaDeVehiculos.Models.Venta
 
 @{
-    ViewData["Title"] = "Details";
+    Layout = null;
 }
 
-<h1>Details</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/print.css" rel="stylesheet" />
+    <script src="~/js/qr.min.js"></script>
+</head>
 
-<div>
-    <h4>Venta</h4>
+<body>
+    <div id="titulos">
+        <center> <h1> HYUNDAI BOLIVIA</h1> </center>
+        <center> <img src="~/css/foto de factura.png" width="450px" /> </center>
+        <center> <h1> RECIBO DE VENTA DE VEHICULO</h1></center>
+    </div>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Fecha)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Num_recibo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Num_recibo)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Total)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Total)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Usuario)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Usuario.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cliente)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cliente.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Vehiculos)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Vehiculos.Id)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-success">Edit</a> |
-    <a asp-action="Index" class="btn btn-outline-dark">Volver a la Lista</a>
-</div>
+
+
+    <div>
+        <p>
+            Fecha:  @Html.DisplayFor(model => model.Fecha)
+        </p>
+        <hr />
+        <p>
+            Oficial de Ventas:  @Html.DisplayFor(model => model.Usuario.Email)
+        </p>
+        <hr />
+        <p>
+            Direccion: @Html.DisplayFor(model => model.Cliente.Direccion)
+        </p>
+        <hr />
+        <p>
+            Nombre del comprador: @Html.DisplayFor(model => model.Cliente.Nombre)
+        </p>
+        <hr />
+        <p>
+            Celular: @Html.DisplayFor(model => model.Cliente.Celular)
+        </p>
+        <hr />
+        <p>
+            Carnet: @Html.DisplayFor(model => model.Cliente.Ci)
+        </p>
+        <hr />
+        <p>
+            Matricula del Vehiculo: @Html.DisplayFor(model => model.Vehiculos.Matricula)
+        </p>
+        <hr />
+        <p>
+            Modelo del Vehiculo: @Html.DisplayFor(model => model.Vehiculos.Modelo)
+        </p>
+        <hr />
+        <p>
+            Monto Total: @Html.DisplayFor(model => model.Total)
+        </p>
+        <hr />
+        
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-success">Edit</a> |
+        <a asp-action="Index" class="btn btn-outline-dark">Volver a la Lista</a>
+    </div>
+
+</body>
+
+
+
+</html>
+

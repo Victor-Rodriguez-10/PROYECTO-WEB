@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\css\\estilos_Login.css"
     },
     {
+      "Id": "F:\\PROYECTO FINAL\\actualizado\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\foto de factura.png",
+      "PackagePath": "staticwebassets\\css\\foto de factura.png"
+    },
+    {
       "Id": "F:\\PROYECTO FINAL\\actualizado\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

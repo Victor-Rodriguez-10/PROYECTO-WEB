@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yOUZj5XygZXVsoVBIocsE/OdZViXYPDWlEwm+dunRnM=",
+  "Hash": "T6qbX26v5+GscTXw9CoO8tlTdZNE/21M9Yxz0h8hpLU=",
   "Source": "VentaDeVehiculos",
   "BasePath": "_content/VentaDeVehiculos",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\estilos_Login.css"
+    },
+    {
+      "Identity": "F:\\PROYECTO FINAL\\actualizado\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\foto de factura.png",
+      "SourceId": "VentaDeVehiculos",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PROYECTO FINAL\\actualizado\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
+      "BasePath": "_content/VentaDeVehiculos",
+      "RelativePath": "css/foto de factura.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\foto de factura.png"
     },
     {
       "Identity": "F:\\PROYECTO FINAL\\actualizado\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\site.css",
