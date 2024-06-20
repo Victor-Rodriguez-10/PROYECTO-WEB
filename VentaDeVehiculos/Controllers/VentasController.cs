@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using VentaDeVehiculos.Contexto;
@@ -50,9 +51,9 @@ namespace VentaDeVehiculos.Controllers
         // GET: Ventas/Create
         public IActionResult Create()
         {
-            ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Id");
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id");
-            ViewData["VehiculoId"] = new SelectList(_context.Vehiculos, "Id", "Id");
+            ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Nombre");
+            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
+            ViewData["VehiculoId"] = new SelectList(_context.Vehiculos, "Id", "Inf");
             return View();
         }
 
@@ -61,10 +62,13 @@ namespace VentaDeVehiculos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Fecha,Num_recibo,UsuarioId,ClienteId,VehiculoId,Total")] Venta venta)
+        public async Task<IActionResult> Create([Bind("Id,UsuarioId,ClienteId,VehiculoId,Total")] Venta venta)
         {
             if (ModelState.IsValid)
             {
+                venta.Fecha = DateOnly.FromDateTime(DateTime.Now);
+                venta.Num_recibo = GetNumero();
+
                 _context.Add(venta);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -73,6 +77,13 @@ namespace VentaDeVehiculos.Controllers
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", venta.UsuarioId);
             ViewData["VehiculoId"] = new SelectList(_context.Vehiculos, "Id", "Id", venta.VehiculoId);
             return View(venta);
+        }
+
+        private int GetNumero()
+        {
+            if (_context.Ventas.ToList().Count > 0)
+                return _context.Ventas.Max(i => i.Num_recibo) + 1;
+            return 1;
         }
 
         // GET: Ventas/Edit/5
@@ -88,9 +99,9 @@ namespace VentaDeVehiculos.Controllers
             {
                 return NotFound();
             }
-            ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Id", venta.ClienteId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", venta.UsuarioId);
-            ViewData["VehiculoId"] = new SelectList(_context.Vehiculos, "Id", "Id", venta.VehiculoId);
+            ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Nombre");
+            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
+            ViewData["VehiculoId"] = new SelectList(_context.Vehiculos, "Id", "Inf");
             return View(venta);
         }
 
@@ -99,7 +110,7 @@ namespace VentaDeVehiculos.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Fecha,Num_recibo,UsuarioId,ClienteId,VehiculoId,Total")] Venta venta)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,UsuarioId,ClienteId,VehiculoId,Total,FotoFile")] Venta venta)
         {
             if (id != venta.Id)
             {
@@ -108,9 +119,26 @@ namespace VentaDeVehiculos.Controllers
 
             if (ModelState.IsValid)
             {
+                var existingVenta = await _context.Ventas.FindAsync(id);
+
+                if (existingVenta == null)
+                {
+                    return NotFound();
+                }
+
+                venta.Fecha = DateOnly.FromDateTime(DateTime.Now);
+                venta.Num_recibo = GetNumero();
+
+                existingVenta.UsuarioId = venta.UsuarioId;
+                existingVenta.ClienteId = venta.ClienteId;
+                existingVenta.VehiculoId = venta.VehiculoId;
+                existingVenta.Total = venta.Total;
+                existingVenta.Fecha = venta.Fecha;
+                existingVenta.Num_recibo = venta.Num_recibo;
                 try
                 {
-                    _context.Update(venta);
+                    _context.Attach(existingVenta);
+                    _context.Entry(existingVenta).State = EntityState.Modified; 
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)

@@ -7,7 +7,7 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -34,32 +34,36 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Matricula)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Modelo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Stock)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CostoVehiculo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripsion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UrlFoto)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Matricula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Modelo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Stock)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CostoVehiculo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripsion)
+                </td>
+                <td>
+                    @if (item.UrlFoto != null)
+                    {
+                        <img src="~/fotos/@item.UrlFoto" class="img-thumbnail" width="130px" />
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" class="btn btn-outline-success" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Details" class="btn btn-outline-info" asp-route-id="@item.Id">Detalles</a> |
+                    <a asp-action="Delete" class="btn btn-outline-danger" asp-route-id="@item.Id">Borrar</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

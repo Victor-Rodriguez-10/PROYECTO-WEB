@@ -1,6 +1,18 @@
-﻿video {
-    top: 0;
-    left: 0;
-    width: 1000px;
-    height: 500px;
+﻿
+*{
+    
 }
+
+#video1 {
+    width: 350px !important;
+    height: 300px;
+}
+
+
+
+#m1 {
+    margin-right: 7px;
+
+}
+
+
