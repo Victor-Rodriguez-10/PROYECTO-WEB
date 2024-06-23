@@ -1,0 +1,69 @@
+﻿@model IEnumerable<VentaDeVehiculos.Models.Vehiculo>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = null;
+}
+
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<h1>Index</h1>
+
+
+<p>
+    <a asp-action="Login" class="btn btn-primary">Iniciar Sesión </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CostoVehiculo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripsion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UrlFoto)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Matricula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Modelo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Stock)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CostoVehiculo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripsion)
+                </td>
+                <td>
+                    @if (item.UrlFoto != null)
+                    {
+                        <img src="~/fotos/@item.UrlFoto" class="img-thumbnail" width="130px" />
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

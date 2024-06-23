@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VentaDeVehiculos.Models
@@ -14,6 +15,8 @@ namespace VentaDeVehiculos.Models
         public int UsuarioId { get; set; }
         public int ClienteId { get; set; }
         public int VehiculoId { get; set; }
+        [Required]
+        [Precision(10,2)]
         public decimal Total { get; set; }
 
         public virtual Usuario? Usuario { get; set; }

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using VentaDeVehiculos.Contexto;
 
@@ -9,8 +10,16 @@ builder.Services.AddControllersWithViews();
 // Add connection string
 builder.Services.AddDbContext<MyContext>(options => {
 
-    options.UseSqlite(builder.Configuration.GetConnectionString("CadenaConexion"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CadenaConexion"));
 });
+
+//Cookies, Authentication and Authorization
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(option => {
+        option.LoginPath = "/Login/Index";
+        option.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+        option.AccessDeniedPath = "/Home/Privacy";
+    });
 
 var app = builder.Build();
 
@@ -26,11 +35,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();    
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Login}/{action=Index}/{id?}");
+    pattern: "{controller=Catalogo}/{action=Index}/{id?}");
 
 app.Run();

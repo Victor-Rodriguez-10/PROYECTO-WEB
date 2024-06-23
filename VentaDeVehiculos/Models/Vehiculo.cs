@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VentaDeVehiculos.Models
@@ -18,7 +19,8 @@ namespace VentaDeVehiculos.Models
         // 
         [NotMapped]
         public string? Inf { get { return $"{Matricula} - {Modelo}"; } }
-
+        [Required]
+        [Precision(20, 6)]
         public decimal CostoVehiculo { get; set; }
         public string? Descripsion { get; set; }
         public string? UrlFoto { get; set; }

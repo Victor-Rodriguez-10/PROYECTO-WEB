@@ -1,0 +1,18 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+#PadreVideo {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background: #ff0000;
+}
+
+#HijoVideo {
+    width: 100px;
+    height: 300px;
+    position: relative;
+    left: 0;
+    top: 0;
+}

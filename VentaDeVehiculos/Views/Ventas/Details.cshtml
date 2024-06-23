@@ -14,7 +14,7 @@
     <script src="~/js/qr.min.js"></script>
 </head>
 
-<body>
+<body style="text-align:center" onload="window.print();" onafterprint="history.back()">
     <div id="titulos">
         <center> <h1> HYUNDAI BOLIVIA</h1> </center>
         <center> <img src="~/css/foto de factura.png" width="450px" /> </center>
@@ -63,7 +63,6 @@
         
     </div>
     <div>
-        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-success">Edit</a> |
         <a asp-action="Index" class="btn btn-outline-dark">Volver a la Lista</a>
     </div>
 
