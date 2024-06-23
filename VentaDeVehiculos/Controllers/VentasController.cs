@@ -68,15 +68,31 @@ namespace VentaDeVehiculos.Controllers
             {
                 venta.Fecha = DateOnly.FromDateTime(DateTime.Now);
                 venta.Num_recibo = GetNumero();
-
-                _context.Add(venta);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                var vehiculo = await _context.Vehiculos
+                .FirstOrDefaultAsync(m => m.Id == venta.VehiculoId);
+                if (vehiculo.Stock > 1)
+                {
+                    vehiculo.Stock = vehiculo.Stock - 1;
+                    _context.Update(vehiculo);
+                    await _context.SaveChangesAsync();
+                    _context.Add(venta);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                TempData["VentaError"] = "No se tiene stock de este vehiculo ( Vehiculos no disponibles)";
+                return RedirectToAction("Create", "Ventas");
             }
             ViewData["ClienteId"] = new SelectList(_context.Clientes, "Id", "Id", venta.ClienteId);
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", venta.UsuarioId);
             ViewData["VehiculoId"] = new SelectList(_context.Vehiculos, "Id", "Id", venta.VehiculoId);
             return View(venta);
+        }
+
+        private Vehiculo GetVehiculo(Venta venta)
+        {
+            var vehiculo = _context.Vehiculos.Where(X => X.Id == venta.VehiculoId);
+            
+            return (Vehiculo)vehiculo;
         }
 
         private int GetNumero()
