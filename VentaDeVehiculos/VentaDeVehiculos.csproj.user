@@ -15,6 +15,6 @@
     <WebStackScaffolding_DbContextTypeFullName>VentaDeVehiculos.Contexto.MyContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>C:\Users\MR ROBOT\Desktop\PROGRAMA WEB\PROYECTO-WEB\VentaDeVehiculos\Properties\PublishProfiles\ventavehiculos-001-site1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\MR ROBOT\Desktop\PROGRAMA WEB\PROYECTO-WEB\VentaDeVehiculos\Properties\PublishProfiles\ventavehiculos-001-site1 - FTP.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

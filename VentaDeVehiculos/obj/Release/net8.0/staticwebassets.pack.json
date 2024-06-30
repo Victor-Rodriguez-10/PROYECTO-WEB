@@ -21,6 +21,58 @@
       "PackagePath": "staticwebassets\\VideosPrincipal\\Nuevo Hyundai KONA. Gama Híbrida y Eléctrica. Supera tus límites.mp4"
     },
     {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\conectado-1.jpg",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\conectado-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\hac.jpg",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\hac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\motor.png",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\motor.png"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\pantalla-1-1-1.jpg",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\pantalla-1-1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\porque-hyundai-a.jpg",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\porque-hyundai-a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\porque-hyundai-b.jpg",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\porque-hyundai-b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\productividad.jpg",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\productividad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\slide-202109-tucson.webp",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\slide-202109-tucson.webp"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\slide-202309-creta.webp",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\slide-202309-creta.webp"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\slide-202309-palisade.webp",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\slide-202309-palisade.webp"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\slide-202309-staria.webp",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\slide-202309-staria.webp"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\slide-cretagrand.webp",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\slide-cretagrand.webp"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\catalogo de vehiculos\\volante-1.jpg",
+      "PackagePath": "staticwebassets\\catalogo de vehiculos\\volante-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
       "PackagePath": "staticwebassets\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4"
     },
@@ -37,8 +89,16 @@
       "PackagePath": "staticwebassets\\css\\estilo_Home.css"
     },
     {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
+      "PackagePath": "staticwebassets\\css\\estilosCatalogo.css"
+    },
+    {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
       "PackagePath": "staticwebassets\\css\\estilos_Login.css"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilos_pivacidad.css",
+      "PackagePath": "staticwebassets\\css\\estilos_pivacidad.css"
     },
     {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\foto de factura.png",
@@ -85,6 +145,10 @@
       "PackagePath": "staticwebassets\\fotos\\11_2.webp"
     },
     {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\12_4.avif",
+      "PackagePath": "staticwebassets\\fotos\\12_4.avif"
+    },
+    {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\12_4.jpeg",
       "PackagePath": "staticwebassets\\fotos\\12_4.jpeg"
     },
@@ -93,8 +157,16 @@
       "PackagePath": "staticwebassets\\fotos\\13_3.jpeg"
     },
     {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\14_4.jpg",
+      "PackagePath": "staticwebassets\\fotos\\14_4.jpg"
+    },
+    {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\14_6.jpeg",
       "PackagePath": "staticwebassets\\fotos\\14_6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\15_4.jpg",
+      "PackagePath": "staticwebassets\\fotos\\15_4.jpg"
     },
     {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\1_4.jpg",

@@ -4,66 +4,81 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+</head>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary" >Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Matricula)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Modelo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Stock)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CostoVehiculo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descripsion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UrlFoto)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+<body>
+
+    <h1>Index</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Matricula)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Modelo)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Stock)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CostoVehiculo)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Descripsion)
-                </td>
-                <td>
-                    @if (item.UrlFoto != null)
-                    {
-                        <img src="~/fotos/@item.UrlFoto" class="img-thumbnail" width="130px" />
-                    }
-                </td>
-                <td>
-                    <a asp-action="Edit" class="btn btn-outline-success" asp-route-id="@item.Id">Editar</a> |
-                    <a asp-action="Details" class="btn btn-outline-info" asp-route-id="@item.Id">Detalles</a> |
-                    <a asp-action="Delete" class="btn btn-outline-danger" asp-route-id="@item.Id">Borrar</a>
-                </td>
+                <th>
+                    @Html.DisplayNameFor(model => model.Matricula)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Modelo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Stock)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CostoVehiculo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripsion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UrlFoto)
+                </th>
+                <th></th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Matricula)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Modelo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stock)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CostoVehiculo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripsion)
+                    </td>
+                    <td>
+                        @if (item.UrlFoto != null)
+                        {
+                            <img src="~/fotos/@item.UrlFoto" class="img-thumbnail" width="130px" />
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" class="btn btn-outline-success" asp-route-id="@item.Id">Editar</a> |
+                        <a asp-action="Details" class="btn btn-outline-info" asp-route-id="@item.Id">Detalles</a> |
+                        <a asp-action="Delete" class="btn btn-outline-danger" asp-route-id="@item.Id">Borrar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</body>
+</html>
