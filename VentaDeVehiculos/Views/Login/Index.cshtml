@@ -2,6 +2,12 @@
 @{
     Layout = null;
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> E1
 <!DOCTYPE html>
 <html lang="es">
 
@@ -9,57 +15,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Simple</title>
+    
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Enlace a Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/estilos_Login.css">
-
+    <link rel="stylesheet" href="~/css/estilos_Login.css">
+    <!-- Enlace a tu archivo de estilos personalizados -->
+   
 </head>
 
 <body>
 
+   
+
     <main id="Hero">
-        <div class="promo">
-            <form asp-action="Login" asp-controller="Login" method="post">
-                <div id="caja">
-                    <h1> INICIAR SESIÓN </h1>
-                    <form method="post">
-                        <div class="correo">
-                            <label for="email">Cuenta:</label>
-                            <input type="text" class="form-control" id="email" name="email" placeholder="Ingresa tu correo">
-
-                        </div>
-
-                        <div class="contraseña">
-                            <label for="password">Contraseña</label>
-                            <input type="password" class="form-control" id="password" name="password" placeholder="Ingresa tu contraseña">
-                        </div>
-
-                        @if (TempData["LoginError"] != null)
-                        {
-                            <div class="alert alert-danger">@TempData["LoginError"]</div>
-                        }
-
-                        <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
-                        <br />
-                        <button asp-action="Catalogo" class="btn btn-secondary btn-block">Ver Catalogo</button>
-
-                    </form>
-                </div>
-            </form>
-        </div>
-
-        <video muted autoplay loop controls>
-            <source src="./VideosPrincipal/Hyundai   Nueva Hyundai CRETA 2024.mp4" type="video/mp4" />
+        <video muted autoplay loop>
+            <source src="./VideosPrincipal/181537-866999852_medium.mp4" type="video/mp4" />
+            <!-- Otras fuentes para navegadores adicionales si es necesario -->
         </video>
 
         <div class="capa">
+            <!-- Capa adicional si es necesario para superponer elementos -->
         </div>
 
+        <div class="promo">
+            <form asp-action="Login" asp-controller="Login" method="post" class="login-form">
+                <div id="caja">
+                    <h2>INICIAR SESIÓN</h2>
+                    <div class="correo form-group">
+                        <label for="email">Cuenta:</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Ingresa tu correo">
+                    </div>
+                    <div class="contraseña form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="password"
+                               placeholder="Ingresa tu contraseña">
+                    </div>
+
+                    <!-- Mensaje de error para el inicio de sesión -->
+                    @if (TempData["LoginError"] != null)
+                    {
+                        <div class="alert alert-danger">@TempData["LoginError"]</div>
+                    }
+
+                    <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+                    <br />
+                    <a asp-action="Catalogo" class="btn btn-secondary btn-block">Ver Catálogo</a>
+                    
+                </div>
+            </form>
+        </div>
+        <div id="titulo-autos">
+            AUTOS HYUNDAI
+        </div>
+        
+        <img src="./fotos/LOGO_HYUNDAI.png" alt="Logo Hyundai" id="logo-footer">
+
+        
+
+        
     </main>
 
-    <!-- Enlace a Bootstrap JS y dependencias -->
+    <!-- Enlaces a los scripts de Bootstrap y otras dependencias si es necesario -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    @* <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script> *@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
