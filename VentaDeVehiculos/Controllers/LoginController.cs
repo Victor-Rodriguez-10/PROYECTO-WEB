@@ -41,7 +41,7 @@ namespace VentaDeVehiculos.Controllers
             else
             {
                 // un mensaje temporal 
-                TempData["LoginError"] = "Correo o nombre son incorrectos ";
+                TempData["LoginError"] = "Cuenta o Password incorrectos ";
                 return RedirectToAction("Index", "Login");
             }
         }
