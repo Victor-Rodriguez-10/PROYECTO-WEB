@@ -5,6 +5,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\lenovo\\desktop\\programacion24\\preyecto_asp.netcore\\proyecto-web\\ventadevehiculos\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+<<<<<<< HEAD
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\ventadevehiculos\\views\\ventas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,6 +22,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\ventadevehiculos\\wwwroot\\css\\estilo_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\wwwroot\\css\\estilo_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+=======
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\ventadevehiculos\\views\\catalogo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\views\\catalogo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> E1
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\ventadevehiculos\\wwwroot\\css\\estiloscatalogo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -59,6 +66,7 @@
               "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Login\\Index.cshtml",
               "ToolTip": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "VentaDeVehiculos\\Views\\Login\\Index.cshtml",
+<<<<<<< HEAD
               "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-02T07:53:07.001Z",
@@ -99,10 +107,16 @@
               "ViewState": "AQIAADwAAAAAAAAAAAAIwEsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-02T03:44:19.138Z"
+=======
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T14:37:43.768Z",
+              "EditorCaption": ""
+>>>>>>> E1
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "estilosCatalogo.css",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
@@ -110,11 +124,15 @@
               "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-02T02:43:28.926Z"
+              "WhenOpened": "2024-07-02T14:35:56.874Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
+=======
+              "DocumentIndex": 4,
+>>>>>>> E1
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -126,12 +144,17 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 1,
+>>>>>>> E1
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
               "ToolTip": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
               "RelativeToolTip": "VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
+<<<<<<< HEAD
               "ViewState": "AQIAAGMAAAAAAAAAAAAAAHUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-02T02:43:29.788Z"
@@ -139,6 +162,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T14:35:57.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> E1
               "Title": "estilo_Home.css",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
@@ -146,11 +178,15 @@
               "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
               "ViewState": "AQIAADkAAAAAAAAAAAAAAD8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-02T02:43:30.247Z"
+              "WhenOpened": "2024-07-02T14:35:57.465Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 3,
+>>>>>>> E1
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Home\\Index.cshtml",
@@ -158,7 +194,7 @@
               "RelativeToolTip": "VentaDeVehiculos\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAuwFQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T02:43:30.249Z"
+              "WhenOpened": "2024-07-02T14:35:57.465Z"
             }
           ]
         }
