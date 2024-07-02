@@ -2,7 +2,6 @@
 @{
     Layout = null;
 }
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,60 +9,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Simple</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlace a tu archivo de estilos CSS personalizado -->
     <link rel="stylesheet" href="./css/estilos_Login.css">
-    
+    <style>
+        /* Estilos adicionales para el video */
+        #video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+        }
+    </style>
 </head>
 
 <body>
 
     <main id="Hero">
         <div class="promo">
-            <form asp-action="Login" asp-controller="Login" method="post">
-                <div id="caja">
-                    <h1> INICIAR SESIÓN </h1>
-                    <form method="post">
-                        <div class="correo">
-                            <label for="email">Cuenta:</label>
-                            <input type="text" class="form-control" id="email" name="email" placeholder="Ingresa tu correo">
+            <div id="caja">
+                <h1> INICIAR SESIÓN </h1>
+                <form method="post" action="/Login/Login">
+                    <div class="form-group">
+                        <label for="email">Cuenta:</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Ingresa tu correo">
+                    </div>
 
-                        </div>
+                    <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" class="form-control" id="password" name="password"
+                               placeholder="Ingresa tu contraseña">
+                    </div>
 
-                        <div class="contraseña">
-                            <label for="password">Contraseña</label>
-                            <input type="password" class="form-control" id="password" name="password" placeholder="Ingresa tu contraseña">
-                        </div>
+                    @* Manejo de errores de inicio de sesión *@
+                    @if (TempData["LoginError"] != null)
+                    {
+                        <div class="alert alert-danger">@TempData["LoginError"]</div>
+                    }
 
-                        @if (TempData["LoginError"] != null)
-                        {
-                            <div class="alert alert-danger">@TempData["LoginError"]</div>
-                        }
-
-                        <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
-                        <br />
-                        <button asp-action="Catalogo" class="btn btn-secondary btn-block">Ver Catalogo</button>
-
-                    </form>
-                </div>
-            </form>
+                    <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+                    <br />
+                </form>
+                <form method="get" action="/Catalogo/Catalogo">
+                    <button type="submit" class="btn btn-secondary btn-block">Ver Catálogo</button>
+                </form>
+            </div>
         </div>
 
-        <video muted autoplay loop controls>
-            <source src="./VideosPrincipal/Hyundai   Nueva Hyundai CRETA 2024.mp4" type="video/mp4" />
+        <!-- Video de fondo -->
+        <video autoplay loop muted>
+            <source src="181537-866999852_medium.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
         </video>
 
-        <div class="capa">
-
-        </div>
-
+        <div class="capa"></div>
     </main>
 
-    <!-- Enlace a Bootstrap JS y dependencias -->
+    <!-- Enlaces a Bootstrap JS y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    @* <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script> *@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
+
+
 
