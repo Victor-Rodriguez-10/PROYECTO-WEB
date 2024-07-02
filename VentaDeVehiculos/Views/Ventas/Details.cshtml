@@ -1,5 +1,4 @@
-﻿
-@model VentaDeVehiculos.Models.Venta
+﻿@model VentaDeVehiculos.Models.Venta
 
 @{
     Layout = null;
@@ -11,6 +10,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="~/css/print.css" rel="stylesheet" />
+    <link href="~/js/qr.min.js" rel="stylesheet" />
+    <link href="~/js/site.js" rel="stylesheet" />
     <script src="~/js/qr.min.js"></script>
 </head>
 
@@ -60,11 +61,48 @@
             Monto Total: @Html.DisplayFor(model => model.Total)
         </p>
         <hr />
-        
+
+        <center>
+
+
+
+            <!-- Proceso del formato QR -->
+            <div style="margin-top: 20px; width:80%">
+                <div id="qrcode"></div>
+            </div>
+            @{
+                string codigoQR = String.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}|{7}|{8}",
+                Model.Fecha,
+                Model.Usuario!.Email,
+                Model.Cliente!.Direccion,
+                Model.Cliente.Nombre,
+                Model.Cliente.Celular,
+                Model.Cliente.Ci,
+                Model.Vehiculos!.Matricula,
+                Model.Vehiculos!.Modelo,
+                Model.Total
+                );
+            }
+
+
+            <script>
+                var qrcode = new QRCode("qrcode", {
+                    text: "@codigoQR",
+                    width: 100,
+                    height: 100
+                });
+            </script>
+
+            <div>
+                <a asp-action="Index" class="btn btn-outline-dark">Volver a la Lista</a>
+            </div>
+        </center>
+
     </div>
-    <div>
-        <a asp-action="Index" class="btn btn-outline-dark">Volver a la Lista</a>
-    </div>
+
+
+
+
 
 </body>
 
