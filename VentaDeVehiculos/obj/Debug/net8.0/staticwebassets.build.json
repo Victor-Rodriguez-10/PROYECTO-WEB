@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c3LIsi+RsrNwcHv1XiINnPqRrodfCV347i+IWyuOKwc=",
+  "Hash": "6FmWXpYLD2uspwMwOdcfI4ftC9yBXbvKhiYsmBT4YlU=",
   "Source": "VentaDeVehiculos",
   "BasePath": "_content/VentaDeVehiculos",
   "Mode": "Default",
@@ -1022,6 +1022,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fotos\\hyundai-verna-_144874096_760x520.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\LOGO_HYUNDAI.png",
+      "SourceId": "VentaDeVehiculos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
+      "BasePath": "_content/VentaDeVehiculos",
+      "RelativePath": "fotos/LOGO_HYUNDAI.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\LOGO_HYUNDAI.png"
     },
     {
       "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
