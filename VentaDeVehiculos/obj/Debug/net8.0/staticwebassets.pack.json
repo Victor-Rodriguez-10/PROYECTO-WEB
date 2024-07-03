@@ -217,6 +217,10 @@
       "PackagePath": "staticwebassets\\fotos\\9_10.jpg"
     },
     {
+      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\LOGO_HYUNDAI.png",
+      "PackagePath": "staticwebassets\\fotos\\LOGO_HYUNDAI.png"
+    },
+    {
       "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\hyundai-verna-_144874096_760x520.jpg",
       "PackagePath": "staticwebassets\\fotos\\hyundai-verna-_144874096_760x520.jpg"
     },
