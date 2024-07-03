@@ -15,6 +15,9 @@
     <!-- Enlace a Bootstrap CSS -->
     <link rel="stylesheet" href="./css/estilosCatalogo.css">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,109 +34,73 @@
     </div>
 
     <div class="Padre">
-
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-target="#carouselExampleCaptions" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-target="#carouselExampleCaptions" data-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-target="#carouselExampleCaptions" data-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-target="#carouselExampleCaptions" data-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-target="#carouselExampleCaptions" data-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-target="#carouselExampleCaptions" data-slide-to="5" aria-label="Slide 6"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="~/fotos/11_2.webp" class="d-block w-100" alt="...">
+                    <img src="./fotos/11_2.webp" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        
+                        <p>Descubre el placer de conducir</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="~/catalogo de vehiculos/slide-202109-tucson.webp" class="d-block w-100" alt="...">
+                    <img src="./catalogo de vehiculos/slide-202109-tucson.webp" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        
+                        <p>Innovación que supera tus expectativas.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="~/catalogo de vehiculos/slide-202309-creta.webp" class="d-block w-100" alt="...">
+                    <img src="./catalogo de vehiculos/slide-202309-creta.webp" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        
+                        <p>El lujo se une a la tecnología.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="~/catalogo de vehiculos/slide-202109-tucson.webp" class="d-block w-100" alt="...">
+                    <img src="./catalogo de vehiculos/slide-202109-tucson.webp" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                       
+                        <p>Estilo y rendimiento en cada detalle.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="~/catalogo de vehiculos/slide-202309-creta.webp" class="d-block w-100" alt="...">
+                    <img src="./catalogo de vehiculos/slide-202309-creta.webp" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        
+                        <p>Explora nuevos horizontes sobre ruedas.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="~/catalogo de vehiculos/slide-cretagrand.webp" class="d-block w-100" alt="...">
+                    <img src="./catalogo de vehiculos/slide-cretagrand.webp" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        
+                        <p>Potencia que transforma tu viaje.</p>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
-
-
-
-        <div class="hija_1">
-            <div class="contenedorpadre">
-                <div class="imagen_1">
-                    <img src="~/catalogo de vehiculos/porque-hyundai-b.jpg" width="400px" />
-                </div>
-
-                <div class="imagen_2">
-                    <img src="~/catalogo de vehiculos/porque-hyundai-a.jpg" width="400px" />
-                </div>
-
-                <div class="Parrafo_1">
-                    <p class="l_1"> Origen Envidiable</p>
-                    <p>
-                        Iniciemos por el país donde se fabrica Hyundai. Korea es un país punta de lanza en tecnología e innovación.
-                    </p>
-                </div>
-
-                <div class="Parrafo_2">
-                    <div clas="l1">
-                        <p>
-                            La marca que esta
-                            reinventando la industria
-                        </p>
-                    </div>
-                    <div class="pp">
-                        <p>
-                            Calidad incuestionable a un precio justo, sin cobrar caprichos, gracias a la optimización de la tecnología y la creación de empresas proveedoras propias que minimizan los gastos y que, además, por su gran calidad se han convertido en compañías líderes en sus segmentos.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="Hija_2">
-            <table class="table">
+        
+        
+        <div class="hija_2">
+            <table class="table-responsive">
+                <table class="table">
                 <thead>
                     <tr>
                         <th>
@@ -186,6 +153,33 @@
                 </tbody>
             </table>
         </div>
+        <hr class="linea-separadora" style="border-bottom: 2px solid black;">
+        <div class="hija_1">
+            <div class="contenedorpadre">
+                <div class="Parrafo_1">
+                    <p class="l_1"> Origen Envidiable</p>
+                    <p>
+                        Iniciemos por el país donde se fabrica Hyundai. Korea es un país punta de lanza en tecnología e innovación.
+                    </p>
+                </div>
+
+                <div class="Parrafo_2">
+                    <p>
+                        La marca que está reinventando la industria.
+                    </p>
+                    <div class="pp">
+                        <p>
+                            Calidad incuestionable a un precio justo, sin cobrar caprichos, gracias a la optimización de la tecnología y la creación de empresas proveedoras propias que minimizan los gastos y que, además, por su gran calidad se han convertido en compañías líderes en sus segmentos.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+
+        
     </div>
 
 
@@ -196,7 +190,3 @@
 
 
 </html>
-
-
-
-
