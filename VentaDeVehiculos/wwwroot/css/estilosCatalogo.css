@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    
+    align-content: center !important;
 }
 
 body {
@@ -15,14 +15,14 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: black;
-    
+    align-content: center;
 }
 
     #nav a {
         color: white;
         text-decoration: none;
         padding: 15px;
-
+        align-content: center !important;
     }
 
 .container {
