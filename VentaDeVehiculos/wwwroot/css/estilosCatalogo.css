@@ -1,7 +1,13 @@
 
 * {
-    align-content: center;
     box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 #nav {
@@ -10,35 +16,66 @@
     background-color: black;
 }
 
-#nav a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-}
+    #nav a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+    }
 
 .Padre {
-    width: 90%;
-    height: 900px;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.carousel slide {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 100px; /* Ajusta la posición desde la parte superior */
+    left: 50%; /* Centra desde el borde izquierdo */
+    transform: translateX(-50%); /* Centra exactamente */
+    width: 50%; /* Ocupa el 50% del ancho de la página */
+    border: 1px solid #ccc; /* Añade un borde opcional para visualización */
+    padding: 20px; /* Espacio interior opcional */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el ancho y alto total */
 }
 
 .hija_1 {
-    position: absolute;
-    width: 100%;
+    margin-top: 20px; /* Espacio superior opcional */
+    font-family: 'Palmer', A; /* Cambia el tipo de letra a Arial */
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 70%; /* Ocupa el 50% del ancho de la página */
+    margin-left: auto; /* Alinea a la izquierda */
+    margin-right: auto; /* Alinea a la derecha */
 }
 
-.Hija_2 {
-    position: absolute;
-    width: 700px;
-    left: 800px;
-    
+.hija_2 {
+    margin-top: 30px; /* Espacio superior opcional */
+    clear: both; /* Asegura que la siguiente sección comience debajo */
+    text-align: center; /* Centra la tabla horizontalmente */
+    width: 100%; /* Ocupa el ancho completo disponible */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el ancho y alto total */
+    overflow-x: auto; /* Añade scroll horizontal si es necesario */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+}
 
+.table {
+    width: 80%; /* Ancho de la tabla */
+    margin: 0 auto; /* Centra horizontalmente */
+    border: 1px solid #ccc; /* Borde opcional */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.linea-separadora {
+    border-bottom: 2px solid black; /* Estilo de borde para la línea */
+    margin: 30px 0; /* Margen superior e inferior para separación */
+}
+
+.carousel-caption {
+    font-family: 'PalmerFont', cursive; /* Reemplaza 'PalmerFont' con el nombre de la fuente tipo palmer que elijas */
+    color: #ffffff; /* Color blanco más fuerte */
 }
