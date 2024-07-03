@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\lenovo\\desktop\\programacion24\\preyecto_asp.netcore\\proyecto-web\\ventadevehiculos\\wwwroot\\css\\estilos_login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\wwwroot\\css\\estilos_login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\ventadevehiculos\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\lenovo\\desktop\\programacion24\\preyecto_asp.netcore\\proyecto-web\\ventadevehiculos\\wwwroot\\css\\estilos_login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\wwwroot\\css\\estilos_login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\ventadevehiculos\\wwwroot\\css\\estiloscatalogo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -37,36 +37,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "estilos_Login.css",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
               "ToolTip": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
               "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-07-02T15:24:23.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Login\\Index.cshtml",
               "ToolTip": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "VentaDeVehiculos\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAEIAAAAIAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAA8AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T14:37:43.768Z"
+              "WhenOpened": "2024-07-02T14:37:43.768Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
