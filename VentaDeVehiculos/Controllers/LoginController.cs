@@ -48,6 +48,7 @@ namespace VentaDeVehiculos.Controllers
 
         private async Task SetAuthenticationInCookie(Usuario? user)
         {
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
             var claims = new List<Claim>()
                 {
                     new Claim(ClaimTypes.Name, user.Email!),
@@ -55,6 +56,7 @@ namespace VentaDeVehiculos.Controllers
                     new Claim("Id", user.Id.ToString()),
                     new Claim(ClaimTypes.Role, user.Rol!.ToString()),
                 };
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
@@ -68,7 +70,9 @@ namespace VentaDeVehiculos.Controllers
             return RedirectToAction("Index", "Login");
         }
 
+#pragma warning disable CS1998 // El método asincrónico carece de operadores "await" y se ejecutará de forma sincrónica
         public async Task<IActionResult> Catalogo()
+#pragma warning restore CS1998 // El método asincrónico carece de operadores "await" y se ejecutará de forma sincrónica
         {
             return RedirectToAction("Index", "Catalogo");
         }

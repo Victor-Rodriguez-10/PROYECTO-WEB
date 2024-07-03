@@ -18,33 +18,34 @@
     <div id="nav">
         <div>
             <a asp-area="" asp-controller="Home" asp-action="Index"> Principal </a>
-            @if(User.IsInRole("Administrador"))
+            @if (User.IsInRole("Administrador"))
             {
                 <a asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
-            }    
+            }
             <a asp-area="" asp-controller="Vehiculoes" asp-action="Index">Vehiculos</a>
             <a asp-area="" asp-controller="Clientes" asp-action="Index">Cliente</a>
             <a asp-area="" asp-controller="Ventas" asp-action="Index">Ventas</a>
             <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
         </div>
-        <span class="navbar-text" style="color: white" >
+        <span class="navbar-text" style="color: white">
             @User.Identity?.Name | @User.FindFirstValue(ClaimTypes.Role)
         </span>
-            <a asp-area="" asp-controller="Login" asp-action="Logout">Cerrar Sesion</a>
+        <a asp-area="" asp-controller="Login" asp-action="Logout">Cerrar Sesion</a>
     </div>
-    
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-    <!--
+
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2024 - VentaDeVehiculos - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    -->
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

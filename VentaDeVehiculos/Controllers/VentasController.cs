@@ -70,6 +70,7 @@ namespace VentaDeVehiculos.Controllers
                 venta.Num_recibo = GetNumero();
                 var vehiculo = await _context.Vehiculos
                 .FirstOrDefaultAsync(m => m.Id == venta.VehiculoId);
+#pragma warning disable CS8602 // Desreferencia de una referencia posiblemente NULL.
                 if (vehiculo.Stock > 1)
                 {
                     vehiculo.Stock = vehiculo.Stock - 1;
@@ -79,6 +80,7 @@ namespace VentaDeVehiculos.Controllers
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
+#pragma warning restore CS8602 // Desreferencia de una referencia posiblemente NULL.
                 TempData["VentaError"] = "No se tiene stock de este vehiculo ( Vehiculos no disponibles)";
                 return RedirectToAction("Create", "Ventas");
             }

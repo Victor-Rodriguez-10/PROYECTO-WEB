@@ -21,7 +21,9 @@ namespace VentaDeVehiculos.Controllers
             return View(await _context.Vehiculos.ToListAsync());
         }
 
+#pragma warning disable CS1998 // El método asincrónico carece de operadores "await" y se ejecutará de forma sincrónica
         public async Task<IActionResult> Login()
+#pragma warning restore CS1998 // El método asincrónico carece de operadores "await" y se ejecutará de forma sincrónica
         {
             return RedirectToAction("Index", "Login");
         }

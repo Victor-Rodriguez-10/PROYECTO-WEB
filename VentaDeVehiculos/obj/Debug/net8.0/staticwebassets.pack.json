@@ -169,6 +169,14 @@
       "PackagePath": "staticwebassets\\fotos\\15_4.jpg"
     },
     {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\16_3.jpeg",
+      "PackagePath": "staticwebassets\\fotos\\16_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\17_5.jpeg",
+      "PackagePath": "staticwebassets\\fotos\\17_5.jpeg"
+    },
+    {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\1_4.jpg",
       "PackagePath": "staticwebassets\\fotos\\1_4.jpg"
     },
@@ -211,6 +219,10 @@
     {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\9_10.jpg",
       "PackagePath": "staticwebassets\\fotos\\9_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
+      "PackagePath": "staticwebassets\\js\\qr.min.js"
     },
     {
       "Id": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\site.js",

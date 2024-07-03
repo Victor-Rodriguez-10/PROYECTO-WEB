@@ -1,5 +1,4 @@
-﻿
-@model VentaDeVehiculos.Models.Venta
+﻿@model VentaDeVehiculos.Models.Venta
 
 @{
     Layout = null;
@@ -12,9 +11,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="~/css/print.css" rel="stylesheet" />
     <script src="~/js/qr.min.js"></script>
+    <link href="~/css/print.css" rel="stylesheet" />
 </head>
 
-<body style="text-align:center" onload="window.print();" onafterprint="history.back()">
+<!-- para abrir directamente para imprimir -->
+<!-- onload="window.print();" onafterprint="history.back()"-->
+
+<body style="text-align:center">
     <div id="titulos">
         <center> <h1> HYUNDAI BOLIVIA</h1> </center>
         <center> <img src="~/css/foto de factura.png" width="450px" /> </center>
@@ -29,45 +32,73 @@
         </p>
         <hr />
         <p>
-            Oficial de Ventas:  @Html.DisplayFor(model => model.Usuario.Email)
+            Oficial de Ventas:  @Html.DisplayFor(model => model.Usuario!.Email)
         </p>
         <hr />
         <p>
-            Direccion: @Html.DisplayFor(model => model.Cliente.Direccion)
+            Direccion: @Html.DisplayFor(model => model.Cliente!.Direccion)
         </p>
         <hr />
         <p>
-            Nombre del comprador: @Html.DisplayFor(model => model.Cliente.Nombre)
+            Nombre del comprador: @Html.DisplayFor(model => model.Cliente!.Nombre)
         </p>
         <hr />
         <p>
-            Celular: @Html.DisplayFor(model => model.Cliente.Celular)
+            Celular: @Html.DisplayFor(model => model.Cliente!.Celular)
         </p>
         <hr />
         <p>
-            Carnet: @Html.DisplayFor(model => model.Cliente.Ci)
+            Carnet: @Html.DisplayFor(model => model.Cliente!.Ci)
         </p>
         <hr />
         <p>
-            Matricula del Vehiculo: @Html.DisplayFor(model => model.Vehiculos.Matricula)
+            Matricula del Vehiculo: @Html.DisplayFor(model => model.Vehiculos!.Matricula)
         </p>
         <hr />
         <p>
-            Modelo del Vehiculo: @Html.DisplayFor(model => model.Vehiculos.Modelo)
+            Modelo del Vehiculo: @Html.DisplayFor(model => model.Vehiculos!.Modelo)
         </p>
         <hr />
         <p>
             Monto Total: @Html.DisplayFor(model => model.Total)
         </p>
         <hr />
-        
-    </div>
-    <div>
-        <a asp-action="Index" class="btn btn-outline-dark">Volver a la Lista</a>
+
     </div>
 
+    <center>
+
+        <div style="margin-top: 20px; width:80%">
+            <div id="qrcode"></div>
+        </div>
+
+        @{
+            string codigoQR = String.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}|{7}|{8}",
+            Model.Fecha,
+            Model.Usuario!.Email,
+            Model.Cliente!.Direccion,
+            Model.Cliente.Nombre,
+            Model.Cliente.Celular,
+            Model.Cliente.Ci,
+            Model.Vehiculos!.Matricula,
+            Model.Vehiculos!.Modelo,
+            Model.Total
+            );
+        }
+
+        <script>
+            var qrcode = new QRCode("qrcode", {
+                text: "@codigoQR",
+                width: 100,
+                height: 100
+            });
+        </script>
+
+        <div>
+            <a asp-action="Index" class="btn btn-outline-dark">Volver a la Lista</a>
+        </div>
+    </center>
 </body>
-
 
 
 </html>
