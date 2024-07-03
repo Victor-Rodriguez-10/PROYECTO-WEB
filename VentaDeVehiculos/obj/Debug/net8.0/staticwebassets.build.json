@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SNIPCDSUi0vVuQBy4lRqp4MUeEpjsscgVUpD4yQuNNA=",
+  "Hash": "hIXGMKUyUm9AfH7GGfVsZIAzuKG152XGYz/gv3E3EQQ=",
   "Source": "VentaDeVehiculos",
   "BasePath": "_content/VentaDeVehiculos",
   "Mode": "Default",
@@ -910,6 +910,25 @@
       "OriginalItemSpec": "wwwroot\\fotos\\5_4.jpeg"
     },
     {
+      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\580b57fcd9996e24bc43c482.png",
+      "SourceId": "VentaDeVehiculos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
+      "BasePath": "_content/VentaDeVehiculos",
+      "RelativePath": "fotos/580b57fcd9996e24bc43c482.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\580b57fcd9996e24bc43c482.png"
+    },
+    {
       "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\6_2.jpg",
       "SourceId": "VentaDeVehiculos",
       "SourceType": "Discovered",
@@ -1003,25 +1022,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fotos\\9_10.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\LOGO_HYUNDAI.png",
-      "SourceId": "VentaDeVehiculos",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
-      "BasePath": "_content/VentaDeVehiculos",
-      "RelativePath": "fotos/LOGO_HYUNDAI.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fotos\\LOGO_HYUNDAI.png"
     },
     {
       "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",

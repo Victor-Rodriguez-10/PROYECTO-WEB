@@ -197,6 +197,10 @@
       "PackagePath": "staticwebassets\\fotos\\4_4.jpg"
     },
     {
+      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\580b57fcd9996e24bc43c482.png",
+      "PackagePath": "staticwebassets\\fotos\\580b57fcd9996e24bc43c482.png"
+    },
+    {
       "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\5_1.png",
       "PackagePath": "staticwebassets\\fotos\\5_1.png"
     },
@@ -223,10 +227,6 @@
     {
       "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\9_10.jpg",
       "PackagePath": "staticwebassets\\fotos\\9_10.jpg"
-    },
-    {
-      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\LOGO_HYUNDAI.png",
-      "PackagePath": "staticwebassets\\fotos\\LOGO_HYUNDAI.png"
     },
     {
       "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
