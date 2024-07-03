@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rzMLugYBmkwB2SRdVrqLxCLFQvq2KZmAoXXr9LGlJtMNqc2hM4DW/ePqhg6vfwbOPJ3G65TmAYkUSgJA5PDlFQ==",
+  "dgSpecHash": "Uue2JOnTnH2rnOsqIGxKS0RVfNhRZNZ1M6db3pmJLp4apZADb0Fts19Y4kuYqyIgNHgBBTq72FExXYwmf3d4mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
         "projectName": "VentaDeVehiculos",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

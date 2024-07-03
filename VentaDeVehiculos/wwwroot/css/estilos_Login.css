@@ -1,91 +1,157 @@
-﻿#Hero {
-    min-height: 100vh;
+﻿/* Estilos generales */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#Hero {
     position: relative;
-}
-
-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%;
-    object-fit: cover;
-}
-
-.promo{
-    padding-top: 350px;
-    font-family: Arial; 
+    height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    margin:auto;
-    position: relative;
-    z-index: 2;
-}
-
-#caja h1{
-    font-size:2.5rem;
-    text-align:center;
-    color: #ffffff;
-    font-weight:900;
-}
-
-.correo {
-    font-size: 2.5rem;
     text-align: center;
-    color: #000000;
-    font-weight: 900;
 }
 
-.contraseña {
-    font-size: 2.5rem;
-    text-align: center;
-    color: #ffffff;
-    font-weight: 900;
-}
-
-.capa {
-    position: absolute;
+/* Estilos para el video de fondo */
+video {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000000;
-    opacity: 0.5;
-    mix-blend-mode: overlay;
+    object-fit: cover;
+    z-index: -1;
 }
 
-button {
+.capa {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1); /* Capa semi-transparente oscurecida */
+    z-index: -1;
+}
 
-    display: inline-block;
-    border: none;
-    height: 50px;
-    border-radius: 30px;
-    padding: 10px 0;
-    width: 350px;
-    background-color: #000000;
-    font-size: 1.8rem;
-    color: antiquewhite;
-    font-weight: 800;
-    transition: 150ms;
-    margin-top: 40px;
+/* Estilos para el formulario de login */
+.promo {
+    z-index: 1;
+    color: aqua; /* Texto blanco sobre fondo oscuro */
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo semi-transparente oscuro */
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para el formulario */
+}
 
+#caja h1 {
+    color: aqua;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    color: aqua;
+    margin-bottom: 20px;
 }
 
 .form-control {
-    font-size: 1.0rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff; /* Línea inferior blanca */
+    color: aqua;
+    font-size: 1.2rem;
+    padding: 10px 0;
     text-align: center;
-    color: #ffffff;
-    font-weight: 300;
+    transition: border-color 0.3s ease;
 }
 
-button:focus {
-    outline: none;
+    .form-control::placeholder {
+        color: aliceblue;
+    }
+
+    .form-control:focus {
+        outline: none;
+        border-color: #00ccff; /* Color de foco para la línea inferior */
+    }
+
+.alert {
+    margin-top: 15px;
 }
 
-button:hover {
-    transform: translate(0, -5px);
+.btn {
+    margin-top: 10px;
 }
 
+.btn-primary {
+    background-color: #007bff; /* Color azul primario */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 12px 20px; /* Espaciado interno */
+    font-size: 1.2rem; /* Tamaño de la fuente */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+        color: #fff; /* Texto blanco */
+    }
+
+
+.btn-secondary {
+    background-color: #6c757d; /* Color de fondo gris oscuro */
+    color: #ffffff; /* Texto blanco para botón secundario */
+    border: none; /* Sin borde */
+    padding: 12px 20px; /* Espaciado interno */
+    font-size: 1.2rem; /* Tamaño de la fuente */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave del color de fondo y transformación */
+}
+
+    .btn-secondary:hover {
+        background-color: #495057; /* Color de fondo más oscuro al pasar el mouse */
+        color: #ffffff; /* Texto blanco */
+        transform: translateY(-5px); /* Efecto de elevación al pasar el cursor */
+    }
+
+
+@media (max-width: 768px) {
+    .promo {
+        width: 90%; /* Reducir el ancho en pantallas más pequeñas */
+    }
+}
+
+
+#titulo-autos {
+    position: absolute;
+    top: 30px; /* Ajustar según la posición vertical deseada */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 5rem; /* Aumentar el tamaño de la fuente */
+    color: azure;
+    font-weight: bold; /* Asegura que el texto sea en negrita */
+}
+
+#logo-footer {
+    position: fixed;
+    bottom: 21px; /* Ajusta según la altura del footer-bar */
+    right: 10px; /* Ajusta el margen desde el borde derecho */
+    max-width: 250px; /* Ancho máximo para el logo */
+    max-height: 200px; /* Altura máxima para el logo */
+    margin: 1px; /* Margen opcional para separación del borde de la ventana */
+
+    background-color: transparent; /* Fondo transparente */
+}

@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\administrator\\desktop\\proyecto\\proyecto-web\\ventadevehiculos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\administrator\\desktop\\proyecto\\proyecto-web\\ventadevehiculos\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\administrator\\desktop\\proyecto\\proyecto-web\\ventadevehiculos\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\administrator\\desktop\\proyecto\\proyecto-web\\ventadevehiculos\\wwwroot\\css\\estilos_login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\wwwroot\\css\\estilos_login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\administrator\\desktop\\proyecto\\proyecto-web\\ventadevehiculos\\views\\catalogo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\administrator\\desktop\\proyecto\\proyecto-web\\ventadevehiculos\\wwwroot\\css\\estiloscatalogo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\wwwroot\\css\\estiloscatalogo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\administrator\\desktop\\proyecto\\proyecto-web\\ventadevehiculos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|solutionrelative:ventadevehiculos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A3075CB-2EF0-4005-A6BA-3A406C7052C7}|VentaDeVehiculos\\VentaDeVehiculos.csproj|c:\\users\\administrator\\desktop\\proyecto\\proyecto-web\\ventadevehiculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,7 +69,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,23 +77,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Program.cs",
-              "RelativeDocumentMoniker": "VentaDeVehiculos\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Program.cs",
-              "RelativeToolTip": "VentaDeVehiculos\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAD4vyoAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T04:40:54.217Z"
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "VentaDeVehiculos\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T04:39:45.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "estilos_Login.css",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
+              "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
+              "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\css\\estilos_Login.css",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAuwJ0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-03T04:38:55.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
+              "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
+              "RelativeToolTip": "VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
+              "ViewState": "AQIAAIkAAAAAAAAAAAApwMAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T02:43:29.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "estilosCatalogo.css",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
+              "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
+              "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-02T02:43:28.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "VentaDeVehiculos\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "VentaDeVehiculos\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAjwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T06:34:53.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "qr.min.js",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
               "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -90,33 +155,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-02T03:52:20.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
-              "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
-              "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001836|",
-              "WhenOpened": "2024-07-02T03:52:07.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Ventas\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Ventas\\Details.cshtml",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Ventas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Ventas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Ventas\\Details.cshtml",
               "RelativeToolTip": "VentaDeVehiculos\\Views\\Ventas\\Details.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -124,19 +166,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "estilosCatalogo.css",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
-              "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
-              "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\css\\estilosCatalogo.css",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-02T02:43:28.926Z"
+              "DocumentIndex": 10,
+              "Title": "19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
+              "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
+              "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\css\\19d89bfb6bf52d08922c84f6e1ed9cb3.mp4",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001836|",
+              "WhenOpened": "2024-07-02T03:52:07.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-02T03:52:20.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Program.cs",
+              "RelativeDocumentMoniker": "VentaDeVehiculos\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Program.cs",
+              "RelativeToolTip": "VentaDeVehiculos\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAD4vyoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T04:40:54.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -148,23 +213,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
-              "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
-              "RelativeToolTip": "VentaDeVehiculos\\Views\\Catalogo\\Index.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAiwB4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T02:43:29.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "estilo_Home.css",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
               "RelativeToolTip": "VentaDeVehiculos\\wwwroot\\css\\estilo_Home.css",
               "ViewState": "AQIAACoAAAAAAAAAAAAqwD8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -172,24 +225,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "VentaDeVehiculos\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAASwB0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T02:43:30.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T02:43:30.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Vehiculoes\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Vehiculoes\\Details.cshtml",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\Views\\Vehiculoes\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Vehiculoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\Views\\Vehiculoes\\Details.cshtml",
               "RelativeToolTip": "VentaDeVehiculos\\Views\\Vehiculoes\\Details.cshtml",
               "ViewState": "AQIAADAAAAAAAAAAAAAAwEYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -197,11 +249,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "vehiculos.db",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\vehiculos.db",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\vehiculos.db",
               "RelativeDocumentMoniker": "VentaDeVehiculos\\vehiculos.db",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\PROYECTO\\PROYECTO-WEB\\VentaDeVehiculos\\vehiculos.db",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Proyecto\\PROYECTO-WEB\\VentaDeVehiculos\\vehiculos.db",
               "RelativeToolTip": "VentaDeVehiculos\\vehiculos.db",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI8SURBVDhPdVNLT1NBGD3a23gJKaJUwsIEUaMoL2NsGyqxoCYEDRuKi0ZW3WHkL0D8BWqkJsLKQlsX9bGrNhqqRKRutCVp1BhFEiUxVyVx0Ud67/DN3EcvsZ7ck2/uN9/MnDkzswsGYrEY0xgD0zQwippGbabBzPEoORxb5Upl6Nrk5HsxiBeaWFhcZKqqWqxyVmuMx\u002BOsUCiwufn5P3dmI6eMYdhtRLEKh0pRVTlVQZpIkMPtduOs398sSdKSSBBqE5hqKJBovW1B/49Go0ilUihXys0iQZCMKPbMYQ7OrmaRza7C6/PBRxwbC4oe8gGzkYio4bApIPOM9v3oAppa23DpSgiyuw13781ZfRwa1ZqwJuAu86p8Lg//uQA6D7cjt/IKPUcOof/CMNbyearSp6HjEpHjHxMzmSU0NjTgUTKJUCiEJw\u002BT2OtyUT5DKkXJjtPbqYAQGBxEsVhEcHwciUQCl0dHsf5tA1W5CS\u002BWV1AqlcivOlvQZTH09vTi9fJLfF7fgGcggHcfvkBpbEc4HIay/zje5tb\u002Bp0A3kXPi6gSUzR94/CCON3Qaw8da8PzrX4x0HsD3n7/rm1i7BxSJHq8X16em4OnrRvrTL1zscOHpRwVn\u002Brrqmyjugf4JmjjdfQL7lALSz9Locm7hYGuL5ReHTUFNlgAVcVV7ZBlDA/0IjpzHyaMdkOnfXmvzgN9BenGSQ6dTgrMORa1tC9ZzvnnrNm2NjKROvjI/KhGNnFiA2vozZ7gxM01jgW0oG0\u002BFgH6cagAAAABJRU5ErkJggg==",
               "WhenOpened": "2024-07-02T05:16:05.162Z"
