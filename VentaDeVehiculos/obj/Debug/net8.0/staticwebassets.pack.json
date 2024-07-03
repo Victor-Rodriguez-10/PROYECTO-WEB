@@ -5,16 +5,12 @@
       "PackagePath": "staticwebassets\\VentaDeVehiculos.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\158316-816359649_medium.mp4",
-      "PackagePath": "staticwebassets\\VideosPrincipal\\158316-816359649_medium.mp4"
+      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\181536-866999858_medium.mp4",
+      "PackagePath": "staticwebassets\\VideosPrincipal\\181536-866999858_medium.mp4"
     },
     {
-      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\181537-866999852_medium.mp4",
-      "PackagePath": "staticwebassets\\VideosPrincipal\\181537-866999852_medium.mp4"
-    },
-    {
-      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\9576-220321576_large.mp4",
-      "PackagePath": "staticwebassets\\VideosPrincipal\\9576-220321576_large.mp4"
+      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\5715-185025011_medium.mp4",
+      "PackagePath": "staticwebassets\\VideosPrincipal\\5715-185025011_medium.mp4"
     },
     {
       "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\Hyundai   Nueva Hyundai CRETA 2024.mp4",
@@ -129,10 +125,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\0_1",
-      "PackagePath": "staticwebassets\\fotos"
-    },
-    {
       "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\0_2",
       "PackagePath": "staticwebassets\\fotos"
     },
@@ -197,10 +189,6 @@
       "PackagePath": "staticwebassets\\fotos\\4_4.jpg"
     },
     {
-      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\580b57fcd9996e24bc43c482.png",
-      "PackagePath": "staticwebassets\\fotos\\580b57fcd9996e24bc43c482.png"
-    },
-    {
       "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\5_1.png",
       "PackagePath": "staticwebassets\\fotos\\5_1.png"
     },
@@ -227,6 +215,10 @@
     {
       "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\9_10.jpg",
       "PackagePath": "staticwebassets\\fotos\\9_10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\LOGO_HYUNDAI.png",
+      "PackagePath": "staticwebassets\\fotos\\LOGO_HYUNDAI.png"
     },
     {
       "Id": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",

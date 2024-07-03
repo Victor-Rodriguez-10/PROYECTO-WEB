@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hIXGMKUyUm9AfH7GGfVsZIAzuKG152XGYz/gv3E3EQQ=",
+  "Hash": "wZEHGLhhz0Kj5lf+4A4MIvJPhSPfU6KlpBUH0JbqQCI=",
   "Source": "VentaDeVehiculos",
   "BasePath": "_content/VentaDeVehiculos",
   "Mode": "Default",
@@ -549,25 +549,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\0_1",
-      "SourceId": "VentaDeVehiculos",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
-      "BasePath": "_content/VentaDeVehiculos",
-      "RelativePath": "fotos/0_1",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fotos\\0_1"
-    },
-    {
       "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\0_2",
       "SourceId": "VentaDeVehiculos",
       "SourceType": "Discovered",
@@ -910,25 +891,6 @@
       "OriginalItemSpec": "wwwroot\\fotos\\5_4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\580b57fcd9996e24bc43c482.png",
-      "SourceId": "VentaDeVehiculos",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
-      "BasePath": "_content/VentaDeVehiculos",
-      "RelativePath": "fotos/580b57fcd9996e24bc43c482.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fotos\\580b57fcd9996e24bc43c482.png"
-    },
-    {
       "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\6_2.jpg",
       "SourceId": "VentaDeVehiculos",
       "SourceType": "Discovered",
@@ -1022,6 +984,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fotos\\9_10.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\fotos\\LOGO_HYUNDAI.png",
+      "SourceId": "VentaDeVehiculos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
+      "BasePath": "_content/VentaDeVehiculos",
+      "RelativePath": "fotos/LOGO_HYUNDAI.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\LOGO_HYUNDAI.png"
     },
     {
       "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\js\\qr.min.js",
@@ -2183,12 +2164,12 @@
       "OriginalItemSpec": "wwwroot\\recursos\\font.jpg"
     },
     {
-      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\158316-816359649_medium.mp4",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\181536-866999858_medium.mp4",
       "SourceId": "VentaDeVehiculos",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
       "BasePath": "_content/VentaDeVehiculos",
-      "RelativePath": "VideosPrincipal/158316-816359649_medium.mp4",
+      "RelativePath": "VideosPrincipal/181536-866999858_medium.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2199,15 +2180,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosPrincipal\\158316-816359649_medium.mp4"
+      "OriginalItemSpec": "wwwroot\\VideosPrincipal\\181536-866999858_medium.mp4"
     },
     {
-      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\181537-866999852_medium.mp4",
+      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\5715-185025011_medium.mp4",
       "SourceId": "VentaDeVehiculos",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
       "BasePath": "_content/VentaDeVehiculos",
-      "RelativePath": "VideosPrincipal/181537-866999852_medium.mp4",
+      "RelativePath": "VideosPrincipal/5715-185025011_medium.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2218,26 +2199,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosPrincipal\\181537-866999852_medium.mp4"
-    },
-    {
-      "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\9576-220321576_large.mp4",
-      "SourceId": "VentaDeVehiculos",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\",
-      "BasePath": "_content/VentaDeVehiculos",
-      "RelativePath": "VideosPrincipal/9576-220321576_large.mp4",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosPrincipal\\9576-220321576_large.mp4"
+      "OriginalItemSpec": "wwwroot\\VideosPrincipal\\5715-185025011_medium.mp4"
     },
     {
       "Identity": "C:\\Users\\lenovo\\Desktop\\Programacion24\\Preyecto_Asp.netCore\\PROYECTO-WEB\\VentaDeVehiculos\\wwwroot\\VideosPrincipal\\Hyundai   Nueva Hyundai CRETA 2024.mp4",
