@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\final\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {}
+    "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\coia 6\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\final\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {
+    "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\coia 6\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\final\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+        "projectUniqueName": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\coia 6\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
         "projectName": "VentaDeVehiculos",
-        "projectPath": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\final\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+        "projectPath": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\coia 6\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
         "packagesPath": "C:\\Users\\MR ROBOT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\final\\PROYECTO-WEB\\VentaDeVehiculos\\obj\\",
+        "outputPath": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\coia 6\\PROYECTO-WEB\\VentaDeVehiculos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

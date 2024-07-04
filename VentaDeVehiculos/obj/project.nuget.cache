@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hgp3xQBDURlWzfqVgIYkmwO+MaxTbgNRR55b9eEo5nxGe1tmoiGRO++ahDCNc04/RJvIQ6TKloPEJMm5UacoMA==",
+  "dgSpecHash": "jfmVa6XiNEIsmiHEmJUMutHX4oEVpQACJywfjnIKi41gYy0ojDiuhTlbyeBD+aTFP/z/vHQOp+nHWeoYsadNvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\final\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
+  "projectFilePath": "C:\\Users\\MR ROBOT\\Desktop\\PROGRAMA WEB\\coia 6\\PROYECTO-WEB\\VentaDeVehiculos\\VentaDeVehiculos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MR ROBOT\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\MR ROBOT\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
